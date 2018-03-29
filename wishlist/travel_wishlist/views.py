@@ -3,6 +3,7 @@ from .models import Place
 from .forms import NewPlaceForm
 
 # Create your views here.
+#Views of different elements
 
 def place_list(request):
 

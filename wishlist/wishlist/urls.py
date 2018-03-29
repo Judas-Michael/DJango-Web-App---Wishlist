@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-	path(r'', include('travel_wishlist.urls'))
+    path('admin/', admin.site.urls), #adds admin page in URL bundle
+	path(r'', include('travel_wishlist.urls')) #adds extra path. travel wishlist is legitimate url
 ]
